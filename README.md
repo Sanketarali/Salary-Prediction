@@ -29,9 +29,13 @@ import plotly.graph_objects as go<br>
 data = pd.read_csv('Salary_Data.csv')<br>
 data.head()<br>
 
+![result](https://github.com/Sanketarali/Salary-Prediction/blob/main/Screenshot%20(3021).png)
+
 <h3>Now before moving forward, let’s have a look at whether this dataset contains any null values or not:<br></h3>
 
 data.isnull().sum()<br>
+
+![result](https://github.com/Sanketarali/Salary-Prediction/blob/main/Screenshot%20(3022).png)
 
 <h3>The dataset doesn’t have any null values. Let’s have a look at the relationship between the salary and job experience of the people</h3>
 figure = px.scatter(data_frame = data, <br>
@@ -40,6 +44,9 @@ figure = px.scatter(data_frame = data, <br>
                     size="YearsExperience", <br>
                     trendline="ols")<br>
 figure.show()<br>
+
+![result](https://github.com/Sanketarali/Salary-Prediction/blob/main/Screenshot%20(3023).png)
+
 
 <h3>There is a perfect linear relationship between the salary and the job experience of the people. It means more job experience results in a higher salary.</h3><br>
 
@@ -62,6 +69,9 @@ print("Predicted Salary = ", model.predict(features))<br>
 
 Years of Experience : 2<br>
 Predicted Salary =  [[44169.21365784]]<br>
+
+![result](https://github.com/Sanketarali/Salary-Prediction/blob/main/Screenshot%20(3024).png)
+
                                                 
 
 
