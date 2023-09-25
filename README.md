@@ -4,7 +4,7 @@
 This project aims to predict the salary of employees based on their job experience, using machine learning techniques.<br>
 
 # Prerequisites
-<h3>To run this project, you will need the following:<br></h3>
+<h3>To run this project, will need the following:<br></h3>
 
 Python 3.x<br>
 Jupyter Notebook<br>
