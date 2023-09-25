@@ -74,7 +74,6 @@ print("Predicted Salary = ", model.predict(features))<br>
 Years of Experience : 2<br>
 Predicted Salary =  [[44169.21365784]]<br>
 
-![result](https://github.com/Sanketarali/Salary-Prediction/blob/main/Screenshot%20(3024).png)
 
                                                 
 
