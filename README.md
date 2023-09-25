@@ -55,24 +55,17 @@ figure.show()<br>
 <h3>There is a perfect linear relationship between the salary and the job experience of the people. It means more job experience results in a higher salary.</h3><br>
 
 # Training a Machine Learning Model
-from sklearn.model_selection import train_test_split<br>
-from sklearn.linear_model import LinearRegression<br>
 
-x = np.asanyarray(data[["YearsExperience"]])<br>
-y = np.asanyarray(data[["Salary"]])<br>
-xtrain, xtest, ytrain, ytest = train_test_split(x, y, test_size=0.2, random_state=42)<br>
 
-<h3>Now here’s how we can train the Machine Learning model:</h3><br>
-model = LinearRegression()<br>
-model.fit(xtrain, ytrain)<br>
+![image](https://github.com/Sanketarali/Salary-Prediction/assets/110754364/9aab263d-4fd1-44ed-aa4e-f293658b7f5c)
+
+
 
 <h3>Now let’s predict the salary of a person using the trained Machine Learning model:</h3><br>
-a = float(input("Years of Experience : "))<br>
-features = np.array([[a]])<br>
-print("Predicted Salary = ", model.predict(features))<br>
 
-Years of Experience : 2<br>
-Predicted Salary =  [[44169.21365784]]<br>
+# Result
+![image](https://github.com/Sanketarali/Salary-Prediction/assets/110754364/bf048c5d-91fc-4856-a9f1-b42b47fd8baa)
+
 
 
                                                 
